@@ -15,38 +15,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+            <state relative-caret-position="421">
+              <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/deeplearning4j/deeplearning4j-datasets/1.0.0-beta3/deeplearning4j-datasets-1.0.0-beta3.jar!/org/deeplearning4j/datasets/iterator/impl/MnistDataSetIterator.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/nd4j/nd4j-api/1.0.0-beta3/nd4j-api-1.0.0-beta3.jar!/org/nd4j/linalg/dataset/api/iterator/BaseDatasetIterator.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/nd4j/nd4j-api/1.0.0-beta3/nd4j-api-1.0.0-beta3.jar!/org/nd4j/linalg/dataset/api/iterator/DataSetIterator.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -108,8 +81,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,11 +192,12 @@
       <updated>1562989190888</updated>
       <workItem from="1562989198249" duration="11782000" />
       <workItem from="1563269035654" duration="487000" />
+      <workItem from="1563438217013" duration="7727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12269000" />
+    <option name="totallyTimeSpent" value="19996000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -235,32 +209,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="UI Designer" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Designer" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.25586355" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="4" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.32741934" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.47342995" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5101279" side_tool="true" visible="true" weight="0.32832617" />
+      <window_info anchor="bottom" id="Messages" order="5" sideWeight="0.48507464" weight="0.47317597" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49924356" weight="0.32850242" />
-      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.49924356" weight="0.23993559" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.48987207" visible="true" weight="0.32832617" />
+      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.49307036" weight="0.37339056" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.32850242" />
+      <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32980332" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.32942432" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
     </layout>
   </component>
@@ -274,6 +250,18 @@
           <url>jar://$MAVEN_REPOSITORY$/org/nd4j/nd4j-api/1.0.0-beta3/nd4j-api-1.0.0-beta3.jar!/org/nd4j/linalg/dataset/api/iterator/DataSetIterator.class</url>
           <properties />
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/company/Main.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/company/Main.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -289,34 +277,16 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/deeplearning4j/deeplearning4j-datasets/1.0.0-beta3/deeplearning4j-datasets-1.0.0-beta3.jar!/org/deeplearning4j/datasets/iterator/impl/MnistDataSetIterator.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/nd4j/nd4j-api/1.0.0-beta3/nd4j-api-1.0.0-beta3.jar!/org/nd4j/linalg/dataset/api/iterator/BaseDatasetIterator.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/nd4j/nd4j-api/1.0.0-beta3/nd4j-api-1.0.0-beta3.jar!/org/nd4j/linalg/dataset/api/iterator/DataSetIterator.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="421">
+          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/deeplearning4j/deeplearning4j-datasets/1.0.0-beta3/deeplearning4j-datasets-1.0.0-beta3.jar!/org/deeplearning4j/datasets/iterator/impl/MnistDataSetIterator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/nd4j/nd4j-api/1.0.0-beta3/nd4j-api-1.0.0-beta3.jar!/org/nd4j/linalg/dataset/api/iterator/BaseDatasetIterator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/nd4j/nd4j-api/1.0.0-beta3/nd4j-api-1.0.0-beta3.jar!/org/nd4j/linalg/dataset/api/iterator/DataSetIterator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
         </state>
       </provider>
     </entry>

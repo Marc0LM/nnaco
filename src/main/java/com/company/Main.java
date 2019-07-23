@@ -28,16 +28,15 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         //number of rows and columns in the input pictures
-        final int numRows = 2;
-        final int numColumns = 3;
-        int outputNum = 2; // number of output classes
+        final int numRows = 28;
+        final int numColumns = 28;
+        int outputNum = 10; // number of output classes
         int batchSize = 64; // batch size for each epoch
-        int rngSeed = 123; // random number seed for reproducibility
+        int rngSeed = 1023; // random number seed for reproducibility
         int numEpochs = 1; // number of epochs to perform
-        double rate = 0.0015; // learning rate
+        double rate = 0.015; // learning rate
 
         //Get the DataSetIterators:
-        DataSetIterator t= new
         DataSetIterator mnistTrain = new MnistDataSetIterator(batchSize, true, rngSeed);
         DataSetIterator mnistTest = new MnistDataSetIterator(batchSize, false, rngSeed);
 
@@ -48,13 +47,13 @@ public class Main {
                 .activation(Activation.RELU)
                 .weightInit(WeightInit.XAVIER)
                 .updater(new Nadam())
-                .l2(rate * 0.05) // regularize learning model
+                .l2(rate * 0.005) // regularize learning model
                 .list()
                 .layer(new DenseLayer.Builder() //create the first input layer.
                         .nIn(numRows * numColumns)
-                        .nOut(5)
+                        .nOut(500)
                         .build())
-                .layer(new OutputLayer.Builder(LossFunctions.LossFunction.NEGATIVELOGLIKELIHOOD) //create hidden layer
+                .layer(new OutputLayer.Builder(LossFunctions.LossFunction.SQUARED_LOSS) //create hidden layer
                         .activation(Activation.SOFTMAX)
                         .nOut(outputNum)
                         .build())
@@ -63,11 +62,13 @@ public class Main {
         MultiLayerNetwork model = new MultiLayerNetwork(conf);
         model.init();
         model.setListeners(new ScoreIterationListener(500));  //print the score with every iteration
-        for(int i=0;i<15;i++) {
+        System.out.println("Train model....");
 
-            System.out.println("Train model....");
-            //model.fit(mnistTrain, numEpochs);
-            Object o = model.getLayers()[0].getParam("W");
+        double b0=0;
+        for(int i=0;i<150;i++) {
+
+            //model.getLayer(0).getParam("b").putScalar(0, 0,b0);
+            model.fit(mnistTrain, numEpochs);
 
             System.out.println("Evaluate model....");
             Evaluation eval = model.evaluate(mnistTest);
