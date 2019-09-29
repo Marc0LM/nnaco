@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+            <state relative-caret-position="191">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="304">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -41,8 +41,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -65,11 +65,21 @@
           <item name="NN_ACO" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="NN_ACO" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="NN_ACO" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-39" />
     <option name="y" value="-13" />
     <option name="width" value="1386" />
@@ -82,7 +92,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -98,18 +107,34 @@
             <path>
               <item name="NN_ACO" type="b2602c69:ProjectViewProjectNode" />
               <item name="NN_ACO" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NN_ACO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NN_ACO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NN_ACO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NN_ACO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NN_ACO" type="b2602c69:ProjectViewProjectNode" />
               <item name="NN_ACO" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-archiver" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,6 +169,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NN_ACO [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="NN_ACO [compile]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -169,13 +219,42 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="NN_ACO [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Maven.NN_ACO [compile]" />
+      <item itemvalue="Maven.NN_ACO [clean]" />
+      <item itemvalue="Maven.NN_ACO [install]" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Maven.NN_ACO [install]" />
+        <item itemvalue="Maven.NN_ACO [clean]" />
         <item itemvalue="Maven.NN_ACO [compile]" />
       </list>
     </recent_temporary>
@@ -193,11 +272,17 @@
       <workItem from="1562989198249" duration="11782000" />
       <workItem from="1563269035654" duration="487000" />
       <workItem from="1563438217013" duration="7727000" />
+      <workItem from="1567630397877" duration="1253000" />
+      <workItem from="1568337172761" duration="1494000" />
+      <workItem from="1568642543690" duration="25000" />
+      <workItem from="1569682712627" duration="5905000" />
+      <workItem from="1569691937200" duration="1162000" />
+      <workItem from="1569693171092" duration="4516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19996000" />
+    <option name="totallyTimeSpent" value="34351000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -209,35 +294,35 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="UI Designer" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Designer" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.25586355" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.271855" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5101279" side_tool="true" visible="true" weight="0.32832617" />
-      <window_info anchor="bottom" id="Messages" order="5" sideWeight="0.48507464" weight="0.47317597" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5079957" side_tool="true" weight="0.36587983" />
+      <window_info anchor="bottom" id="Messages" order="5" sideWeight="0.47974414" weight="0.47317597" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.48987207" visible="true" weight="0.32832617" />
-      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.49307036" weight="0.37339056" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.48560768" visible="true" weight="0.32832617" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="12" sideWeight="0.49200428" weight="0.36587983" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.32850242" />
-      <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.32942432" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.23081024" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,15 +338,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/company/Main.java</url>
-          <line>69</line>
+          <line>91</line>
           <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/company/Main.java</url>
-          <line>72</line>
-          <properties />
-          <option name="timeStamp" value="21" />
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -280,20 +359,294 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/deeplearning4j/deeplearning4j-datasets/1.0.0-beta3/deeplearning4j-datasets-1.0.0-beta3.jar!/org/deeplearning4j/datasets/iterator/impl/MnistDataSetIterator.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/nd4j/nd4j-api/1.0.0-beta3/nd4j-api-1.0.0-beta3.jar!/org/nd4j/linalg/dataset/api/iterator/BaseDatasetIterator.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/nd4j/nd4j-api/1.0.0-beta3/nd4j-api-1.0.0-beta3.jar!/org/nd4j/linalg/dataset/api/iterator/DataSetIterator.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="uml://MAVEN/groupId:NN_ACO:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>groupId:NN_ACO:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">groupId:NN_ACO:1.0-SNAPSHOT</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-tsne:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-tsne:jar:1.0.0-beta3/org.deeplearning4j:nearestneighbor-core:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-datasets:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-datasets:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-common:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-datavec-iterators:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-modelimport:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-modelimport:jar:1.0.0-beta3/org.bytedeco:javacpp:jar:1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-modelimport:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:hdf5-platform:jar:1.10.3-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-modelimport:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:hdf5-platform:jar:1.10.3-1.4.3/org.bytedeco.javacpp-presets:hdf5:jar:1.10.3-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-modelimport:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:hdf5-platform:jar:1.10.3-1.4.3/org.bytedeco.javacpp-presets:hdf5:jar:1.10.3-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-modelimport:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:hdf5-platform:jar:1.10.3-1.4.3/org.bytedeco.javacpp-presets:hdf5:jar:linux-x86:1.10.3-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-modelimport:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:hdf5-platform:jar:1.10.3-1.4.3/org.bytedeco.javacpp-presets:hdf5:jar:linux-x86:1.10.3-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-modelimport:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:hdf5-platform:jar:1.10.3-1.4.3/org.bytedeco.javacpp-presets:hdf5:jar:linux-x86_64:1.10.3-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-modelimport:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:hdf5-platform:jar:1.10.3-1.4.3/org.bytedeco.javacpp-presets:hdf5:jar:linux-x86_64:1.10.3-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-modelimport:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:hdf5-platform:jar:1.10.3-1.4.3/org.bytedeco.javacpp-presets:hdf5:jar:linux-ppc64le:1.10.3-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-modelimport:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:hdf5-platform:jar:1.10.3-1.4.3/org.bytedeco.javacpp-presets:hdf5:jar:linux-ppc64le:1.10.3-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-modelimport:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:hdf5-platform:jar:1.10.3-1.4.3/org.bytedeco.javacpp-presets:hdf5:jar:macosx-x86_64:1.10.3-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-modelimport:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:hdf5-platform:jar:1.10.3-1.4.3/org.bytedeco.javacpp-presets:hdf5:jar:macosx-x86_64:1.10.3-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-modelimport:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:hdf5-platform:jar:1.10.3-1.4.3/org.bytedeco.javacpp-presets:hdf5:jar:windows-x86:1.10.3-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-modelimport:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:hdf5-platform:jar:1.10.3-1.4.3/org.bytedeco.javacpp-presets:hdf5:jar:windows-x86:1.10.3-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-modelimport:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:hdf5-platform:jar:1.10.3-1.4.3/org.bytedeco.javacpp-presets:hdf5:jar:windows-x86_64:1.10.3-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-modelimport:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:hdf5-platform:jar:1.10.3-1.4.3/org.bytedeco.javacpp-presets:hdf5:jar:windows-x86_64:1.10.3-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.slf4j:slf4j-api:jar:1.7.21</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-nn:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-nn:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-utility-iterators:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-nn:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-utility-iterators:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-util:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-nn:jar:1.0.0-beta3/org.lucee:oswego-concurrent:jar:1.3.4</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-nn:jar:1.0.0-beta3/org.nd4j:nd4j-native-api:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-nn:jar:1.0.0-beta3/org.nd4j:nd4j-common:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-nn:jar:1.0.0-beta3/org.nd4j:nd4j-jackson:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-nn:jar:1.0.0-beta3/org.nd4j:nd4j-jackson:jar:1.0.0-beta3/org.nd4j:nd4j-base64:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-nn:jar:1.0.0-beta3/com.github.oshi:oshi-core:jar:3.4.2</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-nn:jar:1.0.0-beta3/com.github.oshi:oshi-core:jar:3.4.2/net.java.dev.jna:jna-platform:jar:4.3.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-nn:jar:1.0.0-beta3/com.github.oshi:oshi-core:jar:3.4.2/net.java.dev.jna:jna-platform:jar:4.3.0/net.java.dev.jna:jna:jar:4.3.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-nn:jar:1.0.0-beta3/com.github.oshi:oshi-core:jar:3.4.2/org.threeten:threetenbp:jar:1.3.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-nn:jar:1.0.0-beta3/com.github.oshi:oshi-core:jar:3.4.2/org.slf4j:slf4j-api:jar:1.7.24</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-nn:jar:1.0.0-beta3/it.unimi.dsi:fastutil:jar:6.5.7</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.apache.commons:commons-math3:jar:3.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/commons-io:commons-io:jar:2.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.apache.commons:commons-compress:jar:1.16.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.apache.commons:commons-compress:jar:1.16.1/org.objenesis:objenesis:jar:2.6</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/com.google.guava:guava:jar:20.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.nd4j:nd4j-api:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.nd4j:nd4j-api:jar:1.0.0-beta3/com.google.flatbuffers:flatbuffers-java:jar:1.9.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.nd4j:nd4j-api:jar:1.0.0-beta3/com.github.os72:protobuf-java-shaded-351:jar:0.9</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.nd4j:nd4j-api:jar:1.0.0-beta3/com.github.os72:protobuf-java-util-shaded-351:jar:0.9</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.nd4j:nd4j-api:jar:1.0.0-beta3/com.github.os72:protobuf-java-util-shaded-351:jar:0.9/com.google.guava:guava:jar:19.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.nd4j:nd4j-api:jar:1.0.0-beta3/com.github.os72:protobuf-java-util-shaded-351:jar:0.9/com.google.code.gson:gson:jar:2.7</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.nd4j:nd4j-api:jar:1.0.0-beta3/uk.com.robust-it:cloning:jar:1.9.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.nd4j:nd4j-api:jar:1.0.0-beta3/uk.com.robust-it:cloning:jar:1.9.3/org.objenesis:objenesis:jar:2.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.nd4j:nd4j-api:jar:1.0.0-beta3/commons-net:commons-net:jar:3.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.nd4j:nd4j-api:jar:1.0.0-beta3/org.nd4j:nd4j-buffer:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.nd4j:nd4j-api:jar:1.0.0-beta3/org.nd4j:nd4j-buffer:jar:1.0.0-beta3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.nd4j:nd4j-api:jar:1.0.0-beta3/org.nd4j:nd4j-context:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.nd4j:nd4j-api:jar:1.0.0-beta3/net.ericaro:neoitertools:jar:1.0.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.apache.commons:commons-lang3:jar:3.6</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.nd4j:jackson:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.nd4j:jackson:jar:1.0.0-beta3/org.yaml:snakeyaml:jar:1.12</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.nd4j:jackson:jar:1.0.0-beta3/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.nd4j:jackson:jar:1.0.0-beta3/joda-time:joda-time:jar:2.2</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-api:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-api:jar:1.0.0-beta3/org.jetbrains:annotations:jar:13.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-api:jar:1.0.0-beta3/commons-codec:commons-codec:jar:1.10</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-api:jar:1.0.0-beta3/org.freemarker:freemarker:jar:2.3.23</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-api:jar:1.0.0-beta3/com.clearspring.analytics:stream:jar:2.7.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-api:jar:1.0.0-beta3/net.sf.opencsv:opencsv:jar:2.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-api:jar:1.0.0-beta3/com.tdunning:t-digest:jar:3.2</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/com.github.jai-imageio:jai-imageio-core:jar:1.3.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/com.twelvemonkeys.imageio:imageio-jpeg:jar:3.1.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/com.twelvemonkeys.imageio:imageio-jpeg:jar:3.1.1/com.twelvemonkeys.imageio:imageio-core:jar:3.1.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/com.twelvemonkeys.imageio:imageio-jpeg:jar:3.1.1/com.twelvemonkeys.imageio:imageio-metadata:jar:3.1.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/com.twelvemonkeys.imageio:imageio-jpeg:jar:3.1.1/com.twelvemonkeys.common:common-lang:jar:3.1.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/com.twelvemonkeys.imageio:imageio-jpeg:jar:3.1.1/com.twelvemonkeys.common:common-io:jar:3.1.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/com.twelvemonkeys.imageio:imageio-jpeg:jar:3.1.1/com.twelvemonkeys.common:common-image:jar:3.1.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/com.twelvemonkeys.imageio:imageio-tiff:jar:3.1.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/com.twelvemonkeys.imageio:imageio-psd:jar:3.1.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/com.twelvemonkeys.imageio:imageio-bmp:jar:3.1.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco.javacpp-presets:opencv:jar:3.4.3-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco.javacpp-presets:opencv:jar:3.4.3-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco.javacpp-presets:ffmpeg:jar:4.0.2-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco.javacpp-presets:ffmpeg:jar:4.0.2-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco.javacpp-presets:flycapture:jar:2.11.3.121-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco.javacpp-presets:flycapture:jar:2.11.3.121-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco.javacpp-presets:libdc1394:jar:2.2.5-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco.javacpp-presets:libdc1394:jar:2.2.5-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco.javacpp-presets:libfreenect:jar:0.5.3-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco.javacpp-presets:libfreenect:jar:0.5.3-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco.javacpp-presets:libfreenect2:jar:0.2.0-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco.javacpp-presets:libfreenect2:jar:0.2.0-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco.javacpp-presets:librealsense:jar:1.12.1-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco.javacpp-presets:librealsense:jar:1.12.1-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco.javacpp-presets:videoinput:jar:0.200-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco.javacpp-presets:videoinput:jar:0.200-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco.javacpp-presets:artoolkitplus:jar:2.3.1-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco.javacpp-presets:artoolkitplus:jar:2.3.1-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco.javacpp-presets:flandmark:jar:1.07-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco.javacpp-presets:flandmark:jar:1.07-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco.javacpp-presets:leptonica:jar:1.76.0-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco.javacpp-presets:leptonica:jar:1.76.0-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco.javacpp-presets:tesseract:jar:4.0.0-rc2-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco:javacv:jar:1.4.3/org.bytedeco.javacpp-presets:tesseract:jar:4.0.0-rc2-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:android-arm:3.4.3-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:android-arm:3.4.3-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:android-arm64:3.4.3-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:android-arm64:3.4.3-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:android-x86:3.4.3-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:android-x86:3.4.3-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:android-x86_64:3.4.3-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:android-x86_64:3.4.3-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:ios-arm64:3.4.3-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:ios-arm64:3.4.3-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:ios-x86_64:3.4.3-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:ios-x86_64:3.4.3-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:linux-x86:3.4.3-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:linux-x86:3.4.3-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:linux-x86_64:3.4.3-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:linux-x86_64:3.4.3-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:linux-armhf:3.4.3-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:linux-armhf:3.4.3-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:linux-ppc64le:3.4.3-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:linux-ppc64le:3.4.3-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:macosx-x86_64:3.4.3-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:macosx-x86_64:3.4.3-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:windows-x86:3.4.3-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:windows-x86:3.4.3-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:windows-x86_64:3.4.3-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.3-1.4.3/org.bytedeco.javacpp-presets:opencv:jar:windows-x86_64:3.4.3-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:leptonica-platform:jar:1.76.0-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:leptonica-platform:jar:1.76.0-1.4.3/org.bytedeco.javacpp-presets:leptonica:jar:android-arm:1.76.0-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:leptonica-platform:jar:1.76.0-1.4.3/org.bytedeco.javacpp-presets:leptonica:jar:android-arm:1.76.0-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:leptonica-platform:jar:1.76.0-1.4.3/org.bytedeco.javacpp-presets:leptonica:jar:android-arm64:1.76.0-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:leptonica-platform:jar:1.76.0-1.4.3/org.bytedeco.javacpp-presets:leptonica:jar:android-arm64:1.76.0-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:leptonica-platform:jar:1.76.0-1.4.3/org.bytedeco.javacpp-presets:leptonica:jar:android-x86:1.76.0-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:leptonica-platform:jar:1.76.0-1.4.3/org.bytedeco.javacpp-presets:leptonica:jar:android-x86:1.76.0-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:leptonica-platform:jar:1.76.0-1.4.3/org.bytedeco.javacpp-presets:leptonica:jar:android-x86_64:1.76.0-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:leptonica-platform:jar:1.76.0-1.4.3/org.bytedeco.javacpp-presets:leptonica:jar:android-x86_64:1.76.0-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:leptonica-platform:jar:1.76.0-1.4.3/org.bytedeco.javacpp-presets:leptonica:jar:linux-x86:1.76.0-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:leptonica-platform:jar:1.76.0-1.4.3/org.bytedeco.javacpp-presets:leptonica:jar:linux-x86:1.76.0-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:leptonica-platform:jar:1.76.0-1.4.3/org.bytedeco.javacpp-presets:leptonica:jar:linux-x86_64:1.76.0-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:leptonica-platform:jar:1.76.0-1.4.3/org.bytedeco.javacpp-presets:leptonica:jar:linux-x86_64:1.76.0-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:leptonica-platform:jar:1.76.0-1.4.3/org.bytedeco.javacpp-presets:leptonica:jar:linux-armhf:1.76.0-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:leptonica-platform:jar:1.76.0-1.4.3/org.bytedeco.javacpp-presets:leptonica:jar:linux-armhf:1.76.0-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:leptonica-platform:jar:1.76.0-1.4.3/org.bytedeco.javacpp-presets:leptonica:jar:linux-ppc64le:1.76.0-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:leptonica-platform:jar:1.76.0-1.4.3/org.bytedeco.javacpp-presets:leptonica:jar:linux-ppc64le:1.76.0-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:leptonica-platform:jar:1.76.0-1.4.3/org.bytedeco.javacpp-presets:leptonica:jar:macosx-x86_64:1.76.0-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:leptonica-platform:jar:1.76.0-1.4.3/org.bytedeco.javacpp-presets:leptonica:jar:macosx-x86_64:1.76.0-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:leptonica-platform:jar:1.76.0-1.4.3/org.bytedeco.javacpp-presets:leptonica:jar:windows-x86:1.76.0-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:leptonica-platform:jar:1.76.0-1.4.3/org.bytedeco.javacpp-presets:leptonica:jar:windows-x86:1.76.0-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:leptonica-platform:jar:1.76.0-1.4.3/org.bytedeco.javacpp-presets:leptonica:jar:windows-x86_64:1.76.0-1.4.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.datavec:datavec-data-image:jar:1.0.0-beta3/org.bytedeco.javacpp-presets:leptonica-platform:jar:1.76.0-1.4.3/org.bytedeco.javacpp-presets:leptonica:jar:windows-x86_64:1.76.0-1.4.3/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3/org.deeplearning4j:deeplearning4j-ui-components:jar:1.0.0-beta3</node>
+            <node x="" y="">org.nd4j:nd4j-cuda-10.1:jar:1.0.0-beta4</node>
+            <node x="" y="">org.nd4j:nd4j-cuda-10.1:jar:1.0.0-beta4/org.nd4j:nd4j-cuda-10.1:jar:windows-x86_64:1.0.0-beta4</node>
+            <node x="" y="">org.nd4j:nd4j-cuda-10.1:jar:1.0.0-beta4/org.bytedeco:javacpp:jar:1.5</node>
+            <node x="" y="">org.nd4j:nd4j-cuda-10.1:jar:1.0.0-beta4/org.bytedeco:cuda:jar:10.1-7.5-1.5</node>
+            <node x="" y="">org.nd4j:nd4j-cuda-10.1:jar:1.0.0-beta4/org.bytedeco:cuda:jar:windows-x86_64:10.1-7.5-1.5</node>
+            <node x="" y="">org.nd4j:nd4j-cuda-10.1:jar:1.0.0-beta4/org.nd4j:nd4j-api:jar:1.0.0-beta4</node>
+            <node x="" y="">org.nd4j:nd4j-cuda-10.1:jar:1.0.0-beta4/org.nd4j:nd4j-native-api:jar:1.0.0-beta4</node>
+            <node x="" y="">org.nd4j:nd4j-cuda-10.1:jar:1.0.0-beta4/org.nd4j:nd4j-native-api:jar:1.0.0-beta4/org.nd4j:nd4j-buffer:jar:1.0.0-beta4</node>
+            <node x="" y="">org.nd4j:nd4j-cuda-10.1:jar:1.0.0-beta4/org.nd4j:nd4j-native-api:jar:1.0.0-beta4/org.nd4j:nd4j-api:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-core:jar:0.0.3.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.apache.uima:uimafit-core:jar:2.0.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.apache.uima:uimafit-core:jar:2.0.0/commons-lang:commons-lang:jar:2.6</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.apache.uima:uimafit-core:jar:2.0.0/commons-io:commons-io:jar:2.2</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.apache.uima:uimafit-core:jar:2.0.0/commons-logging:commons-logging-api:jar:1.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.apache.uima:uimafit-core:jar:2.0.0/org.apache.uima:uimaj-core:jar:2.4.2</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.apache.uima:uimafit-core:jar:2.0.0/org.springframework:spring-core:jar:3.1.2.RELEASE</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.apache.uima:uimafit-core:jar:2.0.0/org.springframework:spring-core:jar:3.1.2.RELEASE/org.springframework:spring-asm:jar:3.1.2.RELEASE</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.apache.uima:uimafit-core:jar:2.0.0/org.springframework:spring-core:jar:3.1.2.RELEASE/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.apache.uima:uimafit-core:jar:2.0.0/org.springframework:spring-context:jar:3.1.2.RELEASE</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.apache.uima:uimafit-core:jar:2.0.0/org.springframework:spring-context:jar:3.1.2.RELEASE/org.springframework:spring-aop:jar:3.1.2.RELEASE</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.apache.uima:uimafit-core:jar:2.0.0/org.springframework:spring-context:jar:3.1.2.RELEASE/org.springframework:spring-aop:jar:3.1.2.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.apache.uima:uimafit-core:jar:2.0.0/org.springframework:spring-context:jar:3.1.2.RELEASE/org.springframework:spring-expression:jar:3.1.2.RELEASE</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.apache.uima:uimafit-core:jar:2.0.0/org.springframework:spring-beans:jar:3.1.2.RELEASE</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.cleartk:cleartk-opennlp-tools:jar:0.10.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.cleartk:cleartk-opennlp-tools:jar:0.10.3/org.apache.opennlp:opennlp-maxent:jar:3.0.2-incubating</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.cleartk:cleartk-opennlp-tools:jar:0.10.3/org.apache.opennlp:opennlp-tools:jar:1.5.2-incubating</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.cleartk:cleartk-opennlp-tools:jar:0.10.3/org.apache.opennlp:opennlp-uima:jar:1.5.2-incubating</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.cleartk:cleartk-ml-opennlp-maxent:jar:1.1.2</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.cleartk:cleartk-ml-opennlp-maxent:jar:1.1.2/org.cleartk:cleartk-ml:jar:1.3.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.cleartk:cleartk-token:jar:0.9.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.cleartk:cleartk-token:jar:0.9.0/org.jdom:jdom:jar:2.0.2</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-core:jar:0.0.3.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-core:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-api:jar:0.0.3.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-core:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-api:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-core:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-api:jar:0.0.3.1/org.json:json:jar:20131018</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/com.typesafe.akka:akka-actor_2.10:jar:2.3-M1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/com.typesafe.akka:akka-actor_2.10:jar:2.3-M1/org.scala-lang:scala-library:jar:2.10.2</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/com.typesafe.akka:akka-actor_2.10:jar:2.3-M1/com.typesafe:config:jar:1.0.2</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/com.typesafe.akka:akka-cluster_2.10:jar:2.3-M1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/com.typesafe.akka:akka-cluster_2.10:jar:2.3-M1/com.typesafe.akka:akka-remote_2.10:jar:2.3-M1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/com.typesafe.akka:akka-cluster_2.10:jar:2.3-M1/com.typesafe.akka:akka-remote_2.10:jar:2.3-M1/io.netty:netty:jar:3.6.6.Final</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/com.typesafe.akka:akka-cluster_2.10:jar:2.3-M1/com.typesafe.akka:akka-remote_2.10:jar:2.3-M1/org.uncommons.maths:uncommons-maths:jar:1.2.2a</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.fusesource:sigar:jar:native:1.6.4</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.fusesource:sigar:jar:native:1.6.4/log4j:log4j:jar:1.2.15</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/com.typesafe.akka:akka-contrib_2.10:jar:2.3-M1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/args4j:args4j:jar:2.0.26</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-zookeeper:jar:0.0.3.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-zookeeper:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-zookeeper:jar:0.0.3.1/org.apache.zookeeper:zookeeper:jar:3.4.5</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-zookeeper:jar:0.0.3.1/org.apache.zookeeper:zookeeper:jar:3.4.5/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-zookeeper:jar:0.0.3.1/org.apache.zookeeper:zookeeper:jar:3.4.5/org.slf4j:slf4j-log4j12:jar:1.6.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-zookeeper:jar:0.0.3.1/org.apache.zookeeper:zookeeper:jar:3.4.5/org.slf4j:slf4j-log4j12:jar:1.6.1/org.slf4j:slf4j-api:jar:1.7.21</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-zookeeper:jar:0.0.3.1/org.apache.zookeeper:zookeeper:jar:3.4.5/jline:jline:jar:0.9.94</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-zookeeper:jar:0.0.3.1/org.apache.zookeeper:zookeeper:jar:3.4.5/jline:jline:jar:0.9.94/junit:junit:jar:3.8.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-zookeeper:jar:0.0.3.1/org.apache.curator:curator-framework:jar:2.4.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-zookeeper:jar:0.0.3.1/org.apache.curator:curator-framework:jar:2.4.0/org.apache.curator:curator-client:jar:2.4.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-zookeeper:jar:0.0.3.1/org.apache.curator:curator-framework:jar:2.4.0/org.apache.curator:curator-client:jar:2.4.0/org.slf4j:slf4j-api:jar:1.6.4</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-zookeeper:jar:0.0.3.1/org.apache.curator:curator-framework:jar:2.4.0/org.apache.curator:curator-client:jar:2.4.0/com.google.guava:guava:jar:14.0.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-zookeeper:jar:0.0.3.1/org.apache.curator:curator-framework:jar:2.4.0/com.google.guava:guava:jar:20.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-zookeeper:jar:0.0.3.1/org.apache.curator:curator-test:jar:2.4.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-zookeeper:jar:0.0.3.1/org.apache.curator:curator-test:jar:2.4.0/org.javassist:javassist:jar:3.15.0-GA</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-zookeeper:jar:0.0.3.1/org.apache.curator:curator-test:jar:2.4.0/com.google.guava:guava:jar:20.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-zookeeper:jar:0.0.3.1/org.apache.curator:curator-recipes:jar:2.4.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-zookeeper:jar:0.0.3.1/org.apache.curator:curator-recipes:jar:2.4.0/com.google.guava:guava:jar:20.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/com.google.protobuf:protobuf-java:jar:2.5.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/com.typesafe.akka:akka-slf4j_2.10:jar:2.3-M1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/com.typesafe.akka:akka-slf4j_2.10:jar:2.3-M1/org.slf4j:slf4j-api:jar:1.7.2</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka:jar:0.0.3.1/com.hazelcast:hazelcast-all:jar:3.2-RC2</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/nz.ac.waikato.cms.weka:weka-dev:jar:3.7.10</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/nz.ac.waikato.cms.weka:weka-dev:jar:3.7.10/net.sf.squirrel-sql.thirdparty-non-maven:java-cup:jar:0.11a</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/nz.ac.waikato.cms.weka:weka-dev:jar:3.7.10/org.pentaho.pentaho-commons:pentaho-package-manager:jar:1.0.8</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.cleartk:cleartk-snowball:jar:0.9.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.cleartk:cleartk-snowball:jar:0.9.3/org.apache.lucene:lucene-snowball:jar:3.0.3</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.cleartk:cleartk-snowball:jar:0.9.3/org.cleartk:cleartk-util:jar:0.9.2</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.cleartk:cleartk-snowball:jar:0.9.3/org.cleartk:cleartk-util:jar:0.9.2/org.apache.uima:uimaj-core:jar:2.4.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.cleartk:cleartk-snowball:jar:0.9.3/org.cleartk:cleartk-util:jar:0.9.2/org.uimafit:uimafit:jar:1.4.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.cleartk:cleartk-snowball:jar:0.9.3/org.cleartk:cleartk-util:jar:0.9.2/org.uimafit:uimafit:jar:1.4.0/commons-lang:commons-lang:jar:2.4</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.cleartk:cleartk-snowball:jar:0.9.3/org.cleartk:cleartk-util:jar:0.9.2/org.uimafit:uimafit:jar:1.4.0/commons-io:commons-io:jar:1.4</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.cleartk:cleartk-snowball:jar:0.9.3/org.cleartk:cleartk-util:jar:0.9.2/org.uimafit:uimafit:jar:1.4.0/org.apache.uima:uimaj-core:jar:2.4.2</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.cleartk:cleartk-snowball:jar:0.9.3/org.cleartk:cleartk-util:jar:0.9.2/org.uimafit:uimafit:jar:1.4.0/org.apache.uima:uimaj-tools:jar:2.4.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.cleartk:cleartk-snowball:jar:0.9.3/org.cleartk:cleartk-util:jar:0.9.2/org.uimafit:uimafit:jar:1.4.0/org.apache.uima:uimaj-tools:jar:2.4.0/org.apache.uima:uimaj-core:jar:2.4.2</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.cleartk:cleartk-snowball:jar:0.9.3/org.cleartk:cleartk-util:jar:0.9.2/org.uimafit:uimafit:jar:1.4.0/org.apache.uima:uimaj-tools:jar:2.4.0/org.apache.uima:uimaj-cpe:jar:2.4.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.cleartk:cleartk-snowball:jar:0.9.3/org.cleartk:cleartk-util:jar:0.9.2/org.uimafit:uimafit:jar:1.4.0/org.apache.uima:uimaj-tools:jar:2.4.0/org.apache.uima:uimaj-cpe:jar:2.4.0/org.apache.uima:uimaj-core:jar:2.4.2</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.cleartk:cleartk-snowball:jar:0.9.3/org.cleartk:cleartk-util:jar:0.9.2/org.uimafit:uimafit:jar:1.4.0/org.apache.uima:uimaj-tools:jar:2.4.0/org.apache.uima:uimaj-cpe:jar:2.4.0/org.apache.uima:uimaj-adapter-vinci:jar:2.4.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.cleartk:cleartk-snowball:jar:0.9.3/org.cleartk:cleartk-util:jar:0.9.2/org.uimafit:uimafit:jar:1.4.0/org.apache.uima:uimaj-tools:jar:2.4.0/org.apache.uima:uimaj-cpe:jar:2.4.0/org.apache.uima:uimaj-adapter-vinci:jar:2.4.0/org.apache.uima:uimaj-core:jar:2.4.2</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.cleartk:cleartk-snowball:jar:0.9.3/org.cleartk:cleartk-util:jar:0.9.2/org.uimafit:uimafit:jar:1.4.0/org.apache.uima:uimaj-tools:jar:2.4.0/org.apache.uima:uimaj-cpe:jar:2.4.0/org.apache.uima:jVinci:jar:2.4.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.cleartk:cleartk-snowball:jar:0.9.3/org.cleartk:cleartk-util:jar:0.9.2/org.uimafit:uimafit:jar:1.4.0/org.apache.uima:uimaj-tools:jar:2.4.0/org.apache.uima:uimaj-document-annotation:jar:2.4.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.cleartk:cleartk-snowball:jar:0.9.3/org.cleartk:cleartk-util:jar:0.9.2/org.uimafit:uimafit:jar:1.4.0/org.apache.uima:uimaj-tools:jar:2.4.0/org.apache.uima:uimaj-document-annotation:jar:2.4.0/org.apache.uima:uimaj-core:jar:2.4.2</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.cleartk:cleartk-snowball:jar:0.9.3/org.cleartk:cleartk-util:jar:0.9.2/org.uimafit:uimafit:jar:1.4.0/org.springframework:spring-core:jar:3.1.0.RELEASE</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.cleartk:cleartk-snowball:jar:0.9.3/org.cleartk:cleartk-util:jar:0.9.2/org.uimafit:uimafit:jar:1.4.0/org.springframework:spring-context:jar:3.1.0.RELEASE</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.cleartk:cleartk-snowball:jar:0.9.3/org.cleartk:cleartk-util:jar:0.9.2/args4j:args4j:jar:2.0.16</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.cleartk:cleartk-snowball:jar:0.9.3/org.cleartk:cleartk-util:jar:0.9.2/com.google.guava:guava:jar:13.0</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.cleartk:cleartk-snowball:jar:0.9.3/org.cleartk:cleartk-util:jar:0.9.2/com.carrotsearch:hppc:jar:0.4.1</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.cleartk:cleartk-snowball:jar:0.9.3/org.cleartk:cleartk-util:jar:0.9.2/commons-io:commons-io:jar:2.4</node>
+            <node x="" y="">org.deeplearning4j:deeplearning4j-examples:jar:0.0.3.1/org.deeplearning4j:deeplearning4j-scaleout-akka-word2vec:jar:0.0.3.1/org.cleartk:cleartk-snowball:jar:0.9.3/org.cleartk:cleartk-type-system:jar:1.2.0</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.0589722520700335" x="7900.5" y="731.0" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="304">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
