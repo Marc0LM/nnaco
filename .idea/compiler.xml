@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="NN_ACO" target="1.5" />
+      <module name="NN_ACO" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
