@@ -1,6 +1,7 @@
 com\company\CancerDataset.class
 com\company\ACOBPAlgorithm$ProblemType.class
 com\company\DatasetTest.class
+com\company\MTLDataset.class
 com\company\ACOBPAlgorithm$1.class
 com\company\Main.class
 com\company\TTTDataset.class
